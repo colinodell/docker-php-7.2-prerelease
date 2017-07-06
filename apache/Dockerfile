@@ -103,11 +103,11 @@ ENV PHP_CFLAGS="-fstack-protector-strong -fpic -fpie -O2"
 ENV PHP_CPPFLAGS="$PHP_CFLAGS"
 ENV PHP_LDFLAGS="-Wl,-O1 -Wl,--hash-style=both -pie"
 
-ENV GPG_KEYS A917B1ECDA84AEC2B568FED6F50ABC807BD5DCD0 528995BFEDFBA7191D46839EF9BA0ADA31CBD89E
+ENV GPG_KEYS DBDB397470D12172 DC9FF8D3EE5AF27F
 
-ENV PHP_VERSION 7.1.6
-ENV PHP_URL="https://secure.php.net/get/php-7.1.6.tar.xz/from/this/mirror" PHP_ASC_URL="https://secure.php.net/get/php-7.1.6.tar.xz.asc/from/this/mirror"
-ENV PHP_SHA256="01584dc521ab7ec84b502b61952f573652fe6aa00c18d6d844fb9209f14b245b" PHP_MD5=""
+ENV PHP_VERSION 7.2.0alpha3
+ENV PHP_URL="https://downloads.php.net/~remi/php-7.2.0alpha3.tar.xz" PHP_ASC_URL="https://downloads.php.net/~remi/php-7.2.0alpha3.tar.xz.asc"
+ENV PHP_SHA256="68abd6fc51cc5cfc7a7b1c2153644c7052f3ed841c21519095dda24eee67f63b" PHP_MD5="de555e594f4211d0152c6a762762ae01"
 
 RUN set -xe; \
 	\

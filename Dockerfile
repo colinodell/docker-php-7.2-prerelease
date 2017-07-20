@@ -46,9 +46,9 @@ ENV PHP_LDFLAGS="-Wl,-O1 -Wl,--hash-style=both -pie"
 
 ENV GPG_KEYS DBDB397470D12172 DC9FF8D3EE5AF27F
 
-ENV PHP_VERSION 7.2.0alpha3
-ENV PHP_URL="https://downloads.php.net/~remi/php-7.2.0alpha3.tar.xz" PHP_ASC_URL="https://downloads.php.net/~remi/php-7.2.0alpha3.tar.xz.asc"
-ENV PHP_SHA256="68abd6fc51cc5cfc7a7b1c2153644c7052f3ed841c21519095dda24eee67f63b" PHP_MD5="de555e594f4211d0152c6a762762ae01"
+ENV PHP_VERSION 7.2.0beta1
+ENV PHP_URL="https://downloads.php.net/~pollita/php-7.2.0beta1.tar.xz" PHP_ASC_URL="https://downloads.php.net/~pollita/php-7.2.0beta1.tar.xz.asc"
+ENV PHP_SHA256="8d7d839cb20ba48f8c947ef44274ef625630f06c7e6d13f3f64b9d17205324db"
 
 RUN set -xe; \
 	\

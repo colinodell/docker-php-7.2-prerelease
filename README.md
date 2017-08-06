@@ -1,6 +1,6 @@
 # DEPRECATED
 
-Official builds are now available from <https://github.com/docker-library/php>.  Please use that instead.
+Official builds are now available from <https://hub.docker.com/_/php/>.  Please use that instead.
 
 ----
 
